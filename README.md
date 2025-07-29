@@ -1,7 +1,23 @@
 # TransLingo: Real-Time Multilingual Voice & Text Chat Application
 
 ## Overview
-TransLingo is a full-stack, real-time chat application that enables users to communicate via text and voice across different languages. It features automatic speech-to-text, translation, and text-to-speech, allowing seamless multilingual conversations in chat rooms. Built with a React frontend and a FastAPI backend, it supports file sharing, persistent chat history, and a modern, responsive UI with dark mode.
+TransLingo is a full-stack, AI-powered real-time chat application that breaks language barriers by enabling seamless communication across different languages through both text and voice.
+
+Leveraging advanced AI-driven speech recognition, natural language translation, and text-to-speech synthesis, TransLingo allows users to chat effortlessly in their native languages — while still being understood globally.
+
+Built with a modern React frontend and a fast, scalable FastAPI backend, the app supports:
+
+Real-time multilingual voice-to-voice and text-to-text conversations
+
+AI-based live language translation
+
+Smart file sharing within chat rooms
+
+Persistent chat history with contextual understanding
+
+A sleek, responsive UI with Dark Mode for better accessibility and UX
+
+Whether it's global teams, remote collaboration, or personal conversations — TransLingo is your AI-powered gateway to borderless communication.
 
 ---
 
