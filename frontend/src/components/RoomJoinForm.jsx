@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaGlobe } from 'react-icons/fa';
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -37,15 +38,20 @@ const RoomJoinForm = ({ onJoin }) => {
         onChange={e => setRoom(e.target.value)}
         required
       />
-      <select
-        value={language}
-        onChange={e => setLanguage(e.target.value)}
-        required
-      >
-        {LANGUAGES.map(lang => (
-          <option key={lang.code} value={lang.code}>{lang.label}</option>
-        ))}
-      </select>
+      <label className="lang-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+        <FaGlobe style={{ fontSize: 18, color: '#2563eb' }} />
+        <span>Language:</span>
+        <select
+          className="lang-select"
+          value={language}
+          onChange={e => setLanguage(e.target.value)}
+          required
+        >
+          {LANGUAGES.map(lang => (
+            <option key={lang.code} value={lang.code}>{lang.label}</option>
+          ))}
+        </select>
+      </label>
       <button type="submit">Join</button>
     </form>
   );
