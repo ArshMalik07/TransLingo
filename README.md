@@ -21,8 +21,12 @@ Whether it's global teams, remote collaboration, or personal conversations — T
 
 ---
 
-## Glimpsis
+## Glimpses
 <img width="1917" height="1018" alt="Screenshot 2025-07-29 165121" src="https://github.com/user-attachments/assets/f5b5c60e-8d6e-4785-9e67-651f6cc7d837" />
+<img width="1918" height="1019" alt="Screenshot 2025-07-29 165247" src="https://github.com/user-attachments/assets/4e8eb37e-c5d4-4ef7-8278-6be05061f285" />
+
+
+
 
 
 ## Features
