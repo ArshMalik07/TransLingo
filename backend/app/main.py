@@ -4,9 +4,9 @@ from fastapi import (
 )
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
-from .db import get_db, init_db
-from .models import Message
-from .schemas import MessageCreate
+from db import get_db, init_db
+from models import Message
+from schemas import MessageCreate
 
 import asyncio
 import json
@@ -19,7 +19,7 @@ from googletrans import Translator, LANGUAGES
 import uuid
 import os
 import base64
-from .voice_translator import speech_to_text, translate_text, speak_text
+from voice_translator import speech_to_text, translate_text, speak_text
 from fastapi import WebSocket
 from fastapi.staticfiles import StaticFiles
 import shutil
